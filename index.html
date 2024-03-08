@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <!-- icons cnd -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+  <title>Literacy & Numeracy | Quiz App</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Literacy & Numeracy | Quiz Application</h1>
+
+  </header>
+
+  <hr>
+  
+  <section class="container ">
+
+    <div class="score-time">
+
+      <div class="score-board">
+        <i class="uil uil-medal"></i>
+        <div class="score">
+          <p class="live-score">Live Score</p>
+          <h3 class="current-score">0</h3>
+        </div>
+      </div>
+      <div class="time-board">
+        <i class="uil uil-clock-nine"></i>
+        <div class="time-left">
+          <p>Time Left:</p>
+          <h3 class="time">09:59</h3>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="hr2">
+
+    <div class="quiz-container">
+
+      <div class="about-user">
+        <h2>User : </h2>
+        <p class="user-name"> Name0011</p>
+      </div>
+      <p class="display-massage"></p>
+      <div class="question-section">
+      </div>
+      <div class="swap-btns">
+        <button class="btn prev-btn">Prev</button>
+        <button class="btn submit-btn">Submit</button>
+        <button class="btn next-btn">Next</button>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="start-section ">
+    <h1 class="start-username"></h1>
+    <h3>Instructions:</h3>
+    <!-- <ol class="instructions"> -->
+    <li>Please don't select multiple answers.</li>
+    <li>click next button for submitting and get next questions.</li>
+    <li>when all questions are completed it will automatically generate score with certificate.</li>
+    <!-- </ol> -->
+    <form class="entry-form" action="">
+      <input id="nam" class="collect-name" type="text" value="" placeholder="Enter you name here to processed.">
+      <button class="name-btn">Submit</button>
+    </form>
+    <button class="start-btn">Start Quiz &#x2192;</button>
+  </div>
+
+  <div class="complete complete-hide">
+    <div class="cirtificate">
+      <h1>CERTIFICATE</h1>
+      <h2>Of Excellence</h2>
+      <h4 class="cirtificate-id">number</h4>
+      <hr>
+      <i class="uil uil-medal"></i>
+      <p>This Certificate Is Proudly Presented To </p>
+      <h3 class="cirtificate-name">username</h3>
+      <p>For Completing JavaScript Quiz comptition, with score <span class="cirtificate-score">90%</span>, <span
+          class="cirtificate-userchar">You are a genious according to score.</span></p>
+      <div class="flex ">
+        <h3 class="current-date">08/08/2023</h3>
+
+        <h3 class="signature">WikiTech</h3>
+      </div>
+    </div>
+
+    <div class="cirtificate-btns">
+      <button class="cancel-btn">Cancel</button>
+      <button class="download-btn"><a href="mrbinimage.jpeg">download</a></button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
