@@ -356,7 +356,7 @@ nextBtn.addEventListener('click', () => {
 
 })
 
-let timeLeft = 600; // 5 minutes in seconds
+let timeLeft = 600; // 10 minutes in seconds
 
 const countdown = setInterval(() => {
   const minutes = Math.floor(timeLeft / 60);
